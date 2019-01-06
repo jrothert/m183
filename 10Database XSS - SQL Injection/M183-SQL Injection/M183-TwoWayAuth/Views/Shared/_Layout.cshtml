@@ -17,18 +17,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Anwendungsname", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Anwendungsname", "Index", "Main", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Startseite", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Info", "About", "Home")</li>
-                    <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Login", "Index", "Main")</li>
+                    <li>@Html.ActionLink("Feedback", "Feedback", "Main")</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
+        <small style="color:red;">Dont forget to edit Connectionstring in MainController</small>
         @RenderBody()
         <hr />
         <footer>
