@@ -1,0 +1,12 @@
+Aufgabe 1: 
+A = 26(kleinesABC) + 26 (capsABC) + 33(sonderzeichen) + 10 (digits)= 95 Zeiche
+A^N = 95^N
+
+Aufgabe 2:
+A!/ (A-N)!
+
+Aufgabe 3:
+(95^10) * (10^9) / 60 /60 / 24 / 365 = 1.8985824e+21
+
+Aufgabe 4:
+Bei Sätzen sind die folge Buchstaben voraussichtlich.
