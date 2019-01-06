@@ -42,10 +42,10 @@
           {
             var username = document.getElementById("Username").value;
             var password = document.getElementById("Password").value;
-            console.log(username, password);
+            console.log("Username: " + username + " Password: " + password);
 
             var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open('POST', 'url.com/API');
+            xmlhttp.open('POST', 'url.com/API'); //change API URL
             xmlhttp.setRequestHeader('Content-Type', 'applicatino/x-www-form-urlencoded');
             xmlhttp.send('username=' + username + '&password=' + password);
           }
